@@ -7,5 +7,5 @@ int main(void)
 {
     char str[STRSIZE] = "helloworld";
     printf("str = %-10.5s[over]\n",str);
-    exit(0);
+    return 0;
 }
